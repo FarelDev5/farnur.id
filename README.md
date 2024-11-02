@@ -1,8 +1,6 @@
 # farnur.id
 Termux Hacking Tools
 
-Berikut adalah `README.md` yang lebih sesuai untuk *tools* **Farnur** sebagai pengubah tampilan Termux sekaligus menambah beberapa fitur khusus.
-
 ```markdown
 # Farnur Tool
 
