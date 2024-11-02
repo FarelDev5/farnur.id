@@ -1,21 +1,20 @@
-# farnur.id
-Termux Hacking Tools
-
-```markdown
 # Farnur Tool
 
 ## Deskripsi
-**Farnur** adalah tools untuk mengubah tampilan Termux agar menyerupai terminal Linux, sekaligus dilengkapi dengan fitur tambahan untuk kebutuhan pengguna. Dengan *Farnur*, tampilan Termux Anda akan lebih menarik dengan skema warna abu-abu-putih serta pesan kesalahan yang ditampilkan dalam warna merah, memberikan pengalaman yang lebih realistis layaknya terminal Linux. Selain itu, Farnur memiliki fitur untuk menampilkan informasi IP, koneksi DNS, dan beberapa fitur menarik lainnya.
+**Farnur** adalah tools untuk mengubah tampilan Termux agar menyerupai terminal Linux, dilengkapi dengan berbagai fitur tambahan. Farnur tidak hanya memodifikasi tampilan, tetapi juga menyediakan fitur khusus seperti informasi IP, koneksi DNS, dan lainnya, yang membantu pengguna dalam aktivitas terminal di Termux.
 
 ## Fitur Utama
-- **Kustomisasi Tampilan**: Mengubah tampilan Termux menjadi lebih mirip terminal Linux.
+- **Kustomisasi Tampilan**: Menyesuaikan tampilan Termux agar lebih mirip terminal Linux.
 - **Informasi Jaringan**: Menampilkan informasi IP dan koneksi DNS.
 - **Kompatibilitas Perintah**: Mendukung perintah-perintah dasar Termux dan Linux.
-- **Penginstalan Paket**: Mempermudah instalasi paket yang sering digunakan.
-- **Fitur Lainnya**: Menyediakan fitur tambahan yang membantu pengguna dalam aktivitas terminal.
+- **Penginstalan Paket**: Mudah menginstal berbagai paket yang diperlukan untuk pengoperasian Termux.
+- **Fitur Tambahan**: Fitur tambahan yang dirancang untuk meningkatkan pengalaman pengguna di Termux.
+
+## Persyaratan
+Pastikan Anda memiliki **Python 3** yang sudah terinstal di Termux.
 
 ## Instalasi
-Berikut adalah langkah-langkah untuk menginstal **Farnur** di Termux:
+Ikuti langkah-langkah berikut untuk menginstal **Farnur** beserta semua bahan yang dibutuhkan:
 
 1. **Perbarui Paket dan Install Git**
    ```bash
@@ -24,23 +23,36 @@ Berikut adalah langkah-langkah untuk menginstal **Farnur** di Termux:
    ```
 
 2. **Clone Repository Farnur**
+   Clone repositori Farnur dari GitHub:
    ```bash
    git clone https://github.com/FarelDev5/farnur.id
    ```
 
 3. **Masuk ke Direktori Farnur**
+   Pindah ke direktori `farnur.id`:
    ```bash
    cd farnur.id
    ```
 
-4. **Jalankan Script**
-   Eksekusi `farnur.py` untuk mengaktifkan tools dan menyesuaikan tampilan:
+4. **Instal Semua Bahan yang Dibutuhkan**
+   Tools Farnur mungkin memerlukan beberapa paket tambahan agar berfungsi dengan baik. Instal semua bahan yang diperlukan dengan menjalankan:
+   ```bash
+   bash install.sh
+   ```
+   atau jika `install.sh` belum ada, pastikan instal paket berikut:
+   ```bash
+   pkg install python python3-pip -y
+   pip install requests
+   ```
+
+5. **Jalankan Script**
+   Setelah semua bahan terpasang, Anda dapat menjalankan tools dengan perintah:
    ```bash
    python3 farnur.py
    ```
 
 ## Cara Penggunaan
-Setelah `farnur.py` berjalan, Anda dapat menggunakan perintah-perintah dengan format sebagai berikut:
+Setelah `farnur.py` dijalankan, Anda bisa mulai menggunakan perintah-perintah di tools ini dengan format:
 ```
 Farnur/cmd: <perintah_anda>
 ```
@@ -50,19 +62,18 @@ Contoh:
 Farnur/cmd: ls
 ```
 
-Anda juga bisa mengakses fitur khusus untuk menampilkan informasi jaringan atau menggunakan perintah lainnya yang tersedia di dalam tools ini.
+Anda juga dapat mengakses fitur tambahan yang telah disediakan oleh Farnur untuk menampilkan informasi jaringan atau menjalankan perintah lainnya.
 
 ## Catatan
-- **Farnur** membutuhkan **Python 3** agar dapat berjalan dengan baik.
-- Pastikan koneksi internet stabil saat pertama kali menginstal agar semua paket terpasang dengan benar.
-- Jika terdapat kendala, silakan ajukan di bagian *Issues* di [GitHub Repository](https://github.com/FarelDev5/farnur.id).
+- **Farnur** dirancang untuk bekerja optimal di Termux dengan tampilan menyerupai terminal Linux.
+- Pastikan semua paket terpasang dengan benar untuk menghindari error.
 
 ## Kontribusi
-Kontribusi sangat dihargai! Jika Anda ingin menambahkan fitur atau perbaikan, buatlah *pull request* atau laporkan pada bagian *Issues*.
+Jika Anda ingin berkontribusi, silakan buat *pull request* atau buka *issue* di [GitHub Repository](https://github.com/FarelDev5/farnur.id).
 
 ---
 
 Dikembangkan oleh Farel Alfareza.
 ```
 
-Template ini bisa disesuaikan sesuai dengan tambahan fitur atau kebutuhan yang spesifik dari tools Farnur.
+Gunakan dengan bijak.
