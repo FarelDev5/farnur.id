@@ -77,4 +77,5 @@ Dikembangkan oleh Farel Alfareza.
 ```
 
 Gunakan dengan bijak.
-tools ini di gunakan untuk belajar, saya tidak bertanggung jawab jika di salah gunakan, semua tergantung dari bagaimana cara kamu menggunakan tools ini
+tools ini di gunakan untuk belajar
+saya tidak bertanggung jawab jika di salah gunakan, semua tergantung dari bagaimana cara kamu menggunakan tools ini
