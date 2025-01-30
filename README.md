@@ -74,7 +74,8 @@ Jika Anda ingin berkontribusi, silakan buat *pull request* atau buka *issue* di 
 ---
 
 Dikembangkan oleh Farel Alfareza.
-```
+
+## ⚠ DISCLAIMER ⚠
 
 Gunakan dengan bijak.
 tools ini di gunakan untuk belajar
